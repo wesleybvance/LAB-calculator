@@ -12,3 +12,16 @@
   justify-content: end;
   font-size: 45px;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn.big {
+  flex-grow: 2;
+}
+
+.btn.bigger {
+  flex-grow: 3;
+}
