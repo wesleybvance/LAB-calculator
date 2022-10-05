@@ -1,0 +1,46 @@
+.wrapper {
+  width: 400px;
+  background-color: aliceblue;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.result-display {
+  display: flex;
+  height: 100px;
+  background-color: black;
+  color: white;
+  justify-content: end;
+  align-items: center;
+  font-size: 45px;
+  padding: 0px 30px 0px 0px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: darkgray;
+  border: 1px solid black;
+}
+
+.btn.act {
+  background-color: orange;
+  color: white;
+}
+
+.btn.big {
+  flex-grow: 1;
+}
+
+.btn.bigger {
+  flex-grow: 2;
+}
