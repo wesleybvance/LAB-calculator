@@ -18,6 +18,19 @@
   flex-direction: row;
 }
 
+.btn {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+  color: white;
+  border: 1px solid black;
+}
+
 .btn.big {
   flex-grow: 2;
 }
