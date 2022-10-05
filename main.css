@@ -33,9 +33,25 @@
   border: 1px solid black;
 }
 
+.btn:hover {
+  background-color: #ebebeb;
+}
+
+.btn:active {
+  background-color: #bbbcbe;
+}
+
 .btn.act {
   background-color: #df974c;
   color: white;
+}
+
+.btn.act:hover {
+  background-color: #dfb07e;
+}
+
+.btn.act:active {
+  background-color: #dd8d37;
 }
 
 .btn.big {
