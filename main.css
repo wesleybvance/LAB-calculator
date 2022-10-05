@@ -6,11 +6,13 @@
 
 .result-display {
   display: flex;
-  height: 50px;
+  height: 100px;
   background-color: black;
   color: white;
   justify-content: end;
+  align-items: center;
   font-size: 45px;
+  padding: 0px 30px 0px 0px;
 }
 
 .row {
@@ -20,21 +22,25 @@
 
 .btn {
   display: flex;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  font-size: 25px;
-  justify-content: center;
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   background-color: darkgray;
-  color: white;
   border: 1px solid black;
 }
 
+.btn.act {
+  background-color: orange;
+  color: white;
+}
+
 .btn.big {
-  flex-grow: 2;
+  flex-grow: 1;
 }
 
 .btn.bigger {
-  flex-grow: 3;
+  flex-grow: 2;
 }
